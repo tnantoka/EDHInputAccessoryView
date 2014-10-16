@@ -16,7 +16,7 @@ EDHInputAccessoryView is available through [CocoaPods](http://cocoapods.org).
 ## Demo
 
 ```
-pod try EDHInputAccessoryView
+$ pod try EDHInputAccessoryView
 ```
 
 ## Installation
@@ -43,7 +43,7 @@ See also [Example](/Example).
 
 ## Author
 
-[tnantoka](https://twitter.com/tnantoka)
+[@tnantoka](https://twitter.com/tnantoka)
 
 ## License
 
