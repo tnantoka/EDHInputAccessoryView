@@ -19,6 +19,11 @@
 @property (nonatomic, copy) void (^tapHandler)(EDHInputAccessoryButton *);
 @property (nonatomic) EDHInputAccessoryView *inputAccessoryView;
 
+@property (nonatomic) UIColor *titleColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic) UIColor *highlightedTitleColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic) UIColor *backgroundColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic) UIColor *highlightedBackgroundColor UI_APPEARANCE_SELECTOR;
+
 + (EDHInputAccessoryButton *)buttonWithString:(NSString *)string;
 + (EDHInputAccessoryButton *)buttonWithIcon:(FAKIcon *)icon tapHandler:(void (^)(EDHInputAccessoryButton *))tapHandler;
 

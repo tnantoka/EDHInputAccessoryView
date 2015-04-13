@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "EDHInputAccessoryButton.h"
+
 @interface EDHInputAccessoryView : UIView
 
 @property (nonatomic) NSArray *buttons;

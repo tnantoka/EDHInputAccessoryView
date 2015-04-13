@@ -8,8 +8,6 @@
 
 #import "EDHInputAccessoryView.h"
 
-#import "EDHInputAccessoryButton.h"
-
 #import <FontAwesomeKit/FontAwesomeKit.h>
 
 static const CGFloat kViewHeight = 44.0f;
@@ -37,7 +35,7 @@ static const CGFloat kIconSize = 20.0f;
         self.scrollView.delaysContentTouches = YES;
         self.scrollView.pagingEnabled = YES;
         [self addSubview:self.scrollView];
-        
+
         [self initButtons];
         
         // #d7d7d7
@@ -127,6 +125,10 @@ static const CGFloat kIconSize = 20.0f;
     }
     
     [self setNeedsLayout];
+}
+
+- (void)setButtonTitleColor:(UIColor *)buttonTitleColor {
+    NSLog(@"setter %@", buttonTitleColor);
 }
 
 @end

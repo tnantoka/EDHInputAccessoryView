@@ -24,7 +24,8 @@
     self.title = @"EDHInputAccessoryView";
     
     UITextView *textView = [[UITextView alloc] initWithFrame:self.view.bounds];
-    textView.inputAccessoryView = [[EDHInputAccessoryView alloc] initWithTextView:textView];
+    EDHInputAccessoryView *accessoryView = [[EDHInputAccessoryView alloc] initWithTextView:textView];
+    textView.inputAccessoryView = accessoryView;
     [self.view addSubview:textView];
 }
 

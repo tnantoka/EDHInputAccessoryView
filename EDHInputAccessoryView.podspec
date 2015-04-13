@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EDHInputAccessoryView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Simple input accessory view for text editor app."
   s.description      = <<-DESC
                        Customized keyboard buttons, developed for Edhita.
